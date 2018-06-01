@@ -1,7 +1,15 @@
 {
   "name": "bass-notes",
   "version": "0.0.1",
-  "description": "Save selected texts into note which can be reviewed and opened later as a link.",
+  "description": "Save selected texts into note which can be accessed later and opened as a link.",
+  "keywords": [
+    "chrome-extension",
+    "notes"
+  ],
+  "author": "Hanna",
+  "license": "MIT",
+  "homepage": "https://github.com/JoySR/bass-notes",
+  "repository": "github:JoySR/bass-notes",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/webpack/bin/webpack.js --watch --config config/webpack.config.js",
@@ -9,12 +17,6 @@
     "build_pro": "./node_modules/webpack/bin/webpack.js --config config/webpack.pro.js -p",
     "build_dev": "./node_modules/webpack/bin/webpack.js --config config/webpack.config.js"
   },
-  "keywords": [
-    "chrome-extension",
-    "notes"
-  ],
-  "author": "Hanna",
-  "license": "ISC",
   "devDependencies": {
     "copy-webpack-plugin": "^4.5.1",
     "babel-loader": "^6.2.5",
