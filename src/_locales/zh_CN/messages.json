@@ -1,0 +1,54 @@
+{
+  "extDescription": {
+    "message": "本扩展可以将页面上选中的文本保存为笔记，并同时储存其链接地址。单击笔记即可访问其源页面。灵感来自于 Opera(Presto) 笔记功能。"
+  },
+  "add_to_note": {
+    "description": "右键菜单名称",
+    "message": "添加到笔记"
+  },
+  "remove_note": {
+    "description": "删除按钮文本",
+    "message": "移除"
+  },
+  "options_saved": {
+    "description": "保存成功时的提示文本",
+    "message": "已保存"
+  },
+  "open_note_url_option_text": {
+    "message": "笔记链接打开方式："
+  },
+  "open_note_url_in_background": {
+    "message": "在后台标签页打开链接"
+  },
+  "open_note_url_in_active_tab": {
+    "message": "在新标签页打开链接并激活"
+  },
+  "show_badge_option_text": {
+    "message": "是否在工具栏图标上显示笔记数目："
+  },
+  "show_badge_text": {
+    "message": "显示"
+  },
+  "hide_badge_text": {
+    "message": "隐藏"
+  },
+  "instruction_title": {
+    "description": "说明文档标题",
+    "message": "欢迎使用 Bass Notes！"
+  },
+  "instruction_select_text": {
+    "message": "在网页上选中想要保存的文本后"
+  },
+  "instruction_add_with_context_menu": {
+    "message": "右键单击，在菜单中选择「添加到笔记」"
+  },
+  "instruction_add_with_shortcuts": {
+    "message": "或按下快捷键 Shift + Alt + N"
+  },
+  "instruction_saved_and_review": {
+    "message": "即可将笔记保存并在此查看"
+  },
+  "instruction_show_popup_shortcuts": {
+    "message": "可以按下快捷键 Shift + Alt + O 打开此页面"
+  }
+}

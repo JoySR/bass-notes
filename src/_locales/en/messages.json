@@ -1,0 +1,54 @@
+{
+   "extDescription": {
+      "message": "This extension is used for saving selected texts from a webpage with its url, which can be accessed later from the note lists. Inspired by Opera(Presto) Notes。"
+   },
+   "add_to_note": {
+      "description": "Name of the context menu",
+      "message": "Add to Notes"
+   },
+   "remove_note": {
+      "description": "text of remove button",
+      "message": "Remove"
+   },
+   "options_saved": {
+      "description": "message for successfully saved options",
+      "message": "Saved"
+   },
+   "open_note_url_option_text": {
+      "message": "Open URL in:"
+   },
+   "open_note_url_in_background": {
+      "message": "Background Tab"
+   },
+   "open_note_url_in_active_tab": {
+      "message": "Active Tab"
+   },
+   "show_badge_option_text": {
+      "message": "Show Notes' count as badge on the icon?"
+   },
+   "show_badge_text": {
+      "message": "Show"
+   },
+   "hide_badge_text": {
+      "message": "Hide"
+   },
+   "instruction_title": {
+      "description": "Title of the instruction in popup page",
+      "message": "Thank you for using Bass Notes!"
+   },
+   "instruction_select_text": {
+      "message": "Select the text you'd like to save on the page, then"
+   },
+   "instruction_add_with_context_menu": {
+      "message": "Right click, choose 'Add to Notes'"
+   },
+   "instruction_add_with_shortcuts": {
+      "message": "Or press Shift + Alt + N"
+   },
+   "instruction_saved_and_review": {
+      "message": "The text will be saved as Note and can be accessed in this page"
+   },
+   "instruction_show_popup_shortcuts": {
+      "message": "Press Shift + Alt + O to open this page"
+   }
+}

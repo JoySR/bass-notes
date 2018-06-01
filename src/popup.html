@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 360px;
+      height: 500px;
+    }
+
+    .bass-notes-list {
+      font-size: 12px;
+    }
+
+    .bass-notes-list li {
+      list-style: none;
+      margin: 10px;
+      padding: 10px;
+      border-bottom: 1px dashed #ccc;
+    }
+    .note-title {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    .note-title a {
+      max-width: 250px;
+      font-weight: bold;
+      text-decoration: none;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      color: #ef620d;
+    }
+
+    .note-title a:hover {
+      text-decoration: underline;
+    }
+
+    .note-title button {
+      border: none;
+      border-radius: 3px;
+      color: #6a6363;
+      background: #ececec;
+      padding: 2px 10px;
+    }
+
+    .note-title button:hover {
+      color: #333;
+      outline: 0;
+      cursor: pointer;
+    }
+
+    .bass-notes-readme {
+      padding: 10px;
+      font-size: 14px;
+      line-height: 2.2;
+    }
+  </style>
+  <title>Bass Notes</title>
+</head>
+<body>
+<div id="app"></div>
+<script src="js/popup.bundle.js"></script>
+</body>
+</html>
